@@ -18,7 +18,7 @@ const TodoItem = (props) => {
           type="text"
           value={textVal}
           onChange={(e) => setTextVal(e.target.value)}
-          className="input-todo-title"
+          className="input-todo-title"t
         />
         <button className="move-btn" onClick={() => props.handleMoveUpProps(id)}>
           <FontAwesomeIcon icon={faArrowUp} size="2x" />
